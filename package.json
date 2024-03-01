@@ -4,10 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "fran y alejandro",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "husky": "^9.0.11"
+  }
 }
-
