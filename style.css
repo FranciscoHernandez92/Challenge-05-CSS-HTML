@@ -3,15 +3,15 @@
 }
 body {
   text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 h1 {
   margin-top: 1rem;
 }
-h2 {
+.title-hero {
   display: flex;
   flex-direction: column;
-  size: 38px;
-  margin: 8.5rem;
+  margin: 7rem;
   position: relative;
   bottom: 6.2rem;
 }
@@ -19,9 +19,9 @@ h2 {
   size: 16px;
   display: flex;
   flex-direction: column;
-  margin: 5rem;
+  margin: 3rem;
   position: relative;
-  bottom: 14rem;
+  bottom: 12rem;
 }
 .submit {
   border-radius: 20px;
@@ -29,16 +29,16 @@ h2 {
   background-color: #009379;
   color: white;
   position: relative;
-  bottom: 17.7rem;
+  bottom: 13rem;
 }
 .image-mobile1 {
   position: relative;
-  bottom: 16rem;
+  bottom: 11rem;
 }
 
 .title-ourfeature {
   position: relative;
-  bottom: 22rem;
+  bottom: 11rem;
 }
 .p-ourfeature {
   size: 16px;
@@ -46,7 +46,7 @@ h2 {
   flex-direction: column;
   margin: 6.5rem;
   position: relative;
-  bottom: 30rem;
+  bottom: 16.5rem;
 }
 .ul-ourfeature {
   list-style-type: none;
@@ -54,7 +54,7 @@ h2 {
   flex-direction: column;
   gap: 1rem;
   position: relative;
-  bottom: 35rem;
+  bottom: 21rem;
   right: 1rem;
   li {
     border: 1px solid;
@@ -65,30 +65,94 @@ h2 {
 }
 .image-mobile2 {
   position: relative;
-  bottom: 34rem;
+  bottom: 20rem;
 }
 .title-selectedworks {
   margin: 2rem;
   position: relative;
-  bottom: 32rem;
+  bottom: 18rem;
 }
 .p-selectedworks {
   position: relative;
-  bottom: 36rem;
+  bottom: 22rem;
   margin: 5rem;
 }
 .image-nutria {
-  border-radius: 2rem 2rem 0 0;
-  position: relative;
-  bottom: 39rem;
+  border-radius: 3rem 3rem 0 0;
 }
 .project-nutria {
+  margin-inline: 1.3rem;
+  border: 1px solid;
+  border-radius: 0 0 3rem 3rem;
+}
+#nutria-margin {
+  margin-inline: 1rem;
+}
+.nutria-margin {
+  padding: 0 2rem 0 1rem;
+}
+.article-project {
   position: relative;
-  bottom: 39rem;
-  left: 3rem;
-  text-align: initial;
+  bottom: 25rem;
   display: flex;
   flex-direction: column;
-  gap: 0;
-  padding: 0;
+  gap: 1rem;
+}
+.section-stories {
+  background-color: #f8d57e;
+  border: 1px solid;
+  padding: 4rem;
+  margin-inline: 1rem;
+  position: relative;
+  bottom: 22rem;
+}
+
+.title-stories {
+  margin-inline: 1rem;
+}
+.p-stories {
+  font-size: 12px;
+}
+.article-stories {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+.stories-nutria {
+  border-radius: 50rem;
+}
+.section-plan {
+  position: relative;
+  bottom: 20rem;
+}
+.title-plan {
+  margin-inline: 5rem;
+}
+.p-plan {
+  margin-inline: 5.2rem;
+  font-size: 12px;
+}
+.article-free-profesional {
+  position: relative;
+  bottom: 4rem;
+  border: 1px solid;
+  border-radius: 1rem;
+  margin: 6rem;
+  text-align: initial;
+  padding: 2rem;
+}
+li {
+  list-style: none;
+}
+
+footer {
+  text-align: start;
+  background-color: #2d2d2d;
+  color: white;
+}
+.icons-footer {
+  background-color: #4e4d4d;
+  border-radius: 100%;
+  padding: 0rem;
+  margin-left: 1rem;
 }
