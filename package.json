@@ -1,8 +1,18 @@
+
 {
+  "name": "challenge-05-html.css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "fran y alejandro",
+  "license": "ISC",
   "dependencies": {
     "husky": "^9.0.11"
-  },
-  "scripts": {
-    "prepare": "husky"
   }
 }
+
